@@ -1,0 +1,46 @@
+.detail-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    background-color: white;
+}
+.img-container{
+    display: flex;
+    width: 24rem;
+    height: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.img-container img{
+    width: 100%;
+    height: 100%;
+}
+.img-container h4, h5, p{
+    margin: 10px 0;
+}
+
+.detail-producto{
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-prenda{
+    font-size: 2rem;
+}
+
+.precio-prenda{
+    font-size: 1.2rem;
+    display: flex;
+    margin-bottom: 0;
+}
+
+.text-detail{
+    font-weight: bold;
+    font-style: italic;
+    display: flex;
+}
